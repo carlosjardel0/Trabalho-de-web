@@ -1,0 +1,45 @@
+<HTML>
+
+<head>
+    <title>Trabalho web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header id=headerr>
+        <h2>Trabalho de web</h2>
+        <div>
+            <button class="button" id="vermei" onclick="vermei()">Vermei</button>
+            <button class="button" id="azul" onclick="azul()">Azul</button>
+            <button class="button" id="preto" onclick="preto()">Preto</button>
+        </div>
+    </header>
+
+    <section>
+        <nav id="nave">
+
+        </nav>
+
+        <article>
+            <div>
+                <h3>Deixe seu recado!</h3>
+                <label for="nome">Nome </label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="recado">Recado </label>
+                <input type="text" id="recado" name="recado"><br><br>
+                <button class="button" id="enviar" onclick="salvaRecados()">Enviar</button>
+            </div>
+            <div id="display">
+            </div>
+        </article>
+
+    </section>
+
+    <footer id="foo">
+        <a onclick="exibeCreditos()" id="creditos">Créditos</a>
+    </footer>
+
+</body>
+
+</HTML>
